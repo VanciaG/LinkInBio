@@ -1,3 +1,17 @@
+@charset "UTF-8";
+
+/* Typeface source: https://rsms.me/inter/ */
+@font-face {
+	font-family: 'Inter';
+	font-weight: 100 900;
+	font-display: swap;
+	font-style: normal;
+	font-named-instance: 'Regular';
+	src: url("./Inter-roman.var.woff2?v=3.18") format("woff2");
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
 html {
     background: black url("backgound.jpg") center center no-repeat;
     color: white;
@@ -51,6 +65,13 @@ body {
             width: clamp( 130px, 14vw, 12rem);
         }
     }
+
+        .avatar img { 
+            display: block; 
+            width: 100%; 
+            height: auto; 
+            border-radius: 50%; 
+        }
 
 
 
